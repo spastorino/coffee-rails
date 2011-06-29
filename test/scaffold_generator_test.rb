@@ -16,14 +16,4 @@ class ScaffoldGeneratorTest < Rails::Generators::TestCase
     assert_no_file "app/assets/javascripts/posts.js"
     assert_file "app/assets/javascripts/posts.js.coffee"
   end
-
-  private
-
-  def copy_routes
-    routes = File.expand_path("../support/routes.rb", __FILE__)
-    destination = File.join(destination_root, "config")
-
-    FileUtils.mkdir_p(destination)
-    FileUtils.cp routes, destination
-  end
 end
