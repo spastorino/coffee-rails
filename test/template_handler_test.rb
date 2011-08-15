@@ -4,8 +4,6 @@ require 'coffee-rails'
 
 class SiteController < ActionController::Base
   self.view_paths = File.expand_path("../support", __FILE__)
-  def index
-  end
 end
 
 DummyApp = ActionDispatch::Routing::RouteSet.new
