@@ -13,4 +13,6 @@ module Coffee
   end
 end
 
-ActionView::Template.register_template_handler :coffee, Coffee::Rails::TemplateHandler
+ActiveSupport.on_load(:action_view) do
+  ActionView::Template.register_template_handler :coffee, Coffee::Rails::TemplateHandler
+end
