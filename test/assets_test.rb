@@ -5,7 +5,7 @@ class AssetsTest < ActiveSupport::TestCase
   def setup
     require "rails"
     require "action_controller/railtie"
-    require "sprockets/railtie"
+    require "sprockets/rails/railtie"
 
     @app = Class.new(Rails::Application)
     @app.config.active_support.deprecation = :stderr
