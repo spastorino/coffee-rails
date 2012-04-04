@@ -25,7 +25,7 @@ class AssetsTest < ActiveSupport::TestCase
     @app.assets["coffee-script"].write_to("#{tmp_path}/coffee-script.js")
 
     assert_match "/lib/assets/javascripts/coffee-script.js.erb", @app.assets["coffee-script"].pathname.to_s
-    assert_match "this.CoffeeScript", File.open("#{tmp_path}/coffee-script.js").read
+    assert_match "CoffeeScript Compiler", File.open("#{tmp_path}/coffee-script.js").read
   end
 
   def tmp_path
