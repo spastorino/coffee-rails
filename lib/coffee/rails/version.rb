@@ -1,5 +1,5 @@
 module Coffee
   module Rails
-    VERSION = "3.2.0"
+    VERSION = "4.0.0.beta"
   end
 end
