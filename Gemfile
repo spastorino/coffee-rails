@@ -4,8 +4,7 @@ source "http://rubygems.org"
 gemspec
 
 gem "rails", :git => "git://github.com/rails/rails"
-gem 'active_record_deprecated_finders', :git => 'git://github.com/rails/active_record_deprecated_finders'
+gem 'activerecord-deprecated_finders', :git => 'git://github.com/rails/activerecord-deprecated_finders'
 
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug'
-# gem 'ruby-debug19'
+# To use debugger
+# gem 'debugger'
