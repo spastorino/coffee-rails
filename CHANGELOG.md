@@ -5,11 +5,6 @@
 
 ## 4.0.0 (April 18, 2013) ##
 
-*   No changes.
-
-
-## 4.0.0.beta1 (February 25, 2013) ##
-
 *   Bump railties version to 4.0.0.beta.
 
     *José Valim*
