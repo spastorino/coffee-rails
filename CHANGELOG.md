@@ -1,6 +1,8 @@
-## unreleased ##
+## 4.0.1 (October 17, 2013) ##
 
-*   No changes.
+*   Drop support to Rails `4.0.0.rc` releases
+
+    *Rafael Mendonça França*
 
 
 ## 4.0.0 (April 18, 2013) ##
