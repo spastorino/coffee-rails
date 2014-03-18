@@ -1,3 +1,9 @@
+## unreleased ##
+
+*   Register coffee extension for rake notes.
+
+    Roberto Miranda
+
 ## 4.0.1 (October 17, 2013) ##
 
 *   Drop support to Rails `4.0.0.rc` releases
