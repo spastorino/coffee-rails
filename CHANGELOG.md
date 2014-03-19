@@ -2,7 +2,7 @@
 
 *   Register coffee extension for rake notes.
 
-    Roberto Miranda
+    *Roberto Miranda*
 
 ## 4.0.1 (October 17, 2013) ##
 
