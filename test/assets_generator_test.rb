@@ -10,6 +10,6 @@ class AssetGeneratorTest < Rails::Generators::TestCase
   def test_assets
     run_generator %w(posts)
     assert_no_file "app/assets/javascripts/posts.js"
-    assert_file "app/assets/javascripts/posts.js.coffee"
+    assert_file "app/assets/javascripts/posts.coffee"
   end
 end
