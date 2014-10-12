@@ -14,6 +14,6 @@ class ScaffoldGeneratorTest < Rails::Generators::TestCase
   def test_assets
     run_generator %w(posts --javascript-engine=coffee --orm=false)
     assert_no_file "app/assets/javascripts/posts.js"
-    assert_file "app/assets/javascripts/posts.js.coffee"
+    assert_file "app/assets/javascripts/posts.coffee"
   end
 end
