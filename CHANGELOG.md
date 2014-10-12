@@ -1,5 +1,9 @@
 ## unreleased ##
 
+*   Default to .coffee extension instead of .js.coffee
+
+    *Joshua Peek*
+
 *   Register coffee extension for rake notes.
 
     *Roberto Miranda*
