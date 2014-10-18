@@ -1,4 +1,4 @@
-## unreleased ##
+## 4.1.0 (October 12, 2014) ##
 
 *   Default to .coffee extension instead of .js.coffee
 
