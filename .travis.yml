@@ -4,13 +4,20 @@ before_install:
 rvm:
   - 1.9.3
   - 2.0.0
-  - 2.1.0
+  - 2.1
+  - 2.2
   - jruby
-  - rbx
+  - rbx-2
 gemfile:
   - Gemfile
   - gemfiles/Gemfile-4-0-stable
   - gemfiles/Gemfile-4-1-stable
+matrix:
+  exclude:
+    - gemfile: Gemfile
+  include:
+    - gemfile: Gemfile
+      rvm: 2.2
 notifications:
   email: false
   campfire:
