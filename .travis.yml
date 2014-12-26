@@ -12,6 +12,7 @@ gemfile:
   - Gemfile
   - gemfiles/Gemfile-4-0-stable
   - gemfiles/Gemfile-4-1-stable
+  - gemfiles/Gemfile-4-2-stable
 matrix:
   exclude:
     - gemfile: Gemfile
