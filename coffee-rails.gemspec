@@ -14,10 +14,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "coffee-rails"
 
   s.add_runtime_dependency 'coffee-script', '>= 2.2.0'
-  s.add_runtime_dependency 'railties',      '>= 4.0.0', '< 5.0'
+  s.add_runtime_dependency 'railties',      '>= 4.0.0', '< 5.1.x'
 
-  s.files         = [".gitignore",".travis.yml","CHANGELOG.md","Gemfile","MIT-LICENSE","README.md","Rakefile","coffee-rails.gemspec","coffee-rails.gemspec.erb","gemfiles/Gemfile-4-0-stable","gemfiles/Gemfile-4-1-stable","lib/assets/javascripts/coffee-script.js.erb","lib/coffee-rails.rb","lib/coffee/rails/engine.rb","lib/coffee/rails/template_handler.rb","lib/coffee/rails/version.rb","lib/rails/generators/coffee/assets/assets_generator.rb","lib/rails/generators/coffee/assets/templates/javascript.coffee","test/assets_generator_test.rb","test/assets_test.rb","test/controller_generator_test.rb","test/scaffold_generator_test.rb","test/support/routes.rb","test/support/site/index.coffee","test/template_handler_test.rb","test/test_helper.rb"]
-  s.test_files    = ["test/assets_generator_test.rb","test/assets_test.rb","test/controller_generator_test.rb","test/scaffold_generator_test.rb","test/support/routes.rb","test/support/site/index.coffee","test/template_handler_test.rb","test/test_helper.rb"]
+  s.files         = ["CHANGELOG.md","MIT-LICENSE","README.md","lib/assets/javascripts/coffee-script.js.erb","lib/coffee-rails.rb","lib/coffee/rails/engine.rb","lib/coffee/rails/template_handler.rb","lib/coffee/rails/version.rb","lib/rails/generators/coffee/assets/assets_generator.rb","lib/rails/generators/coffee/assets/templates/javascript.coffee"]
   s.executables   = []
   s.require_paths = ["lib"]
   s.license = "MIT"

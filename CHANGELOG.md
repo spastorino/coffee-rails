@@ -1,3 +1,9 @@
+## 4.1.1 (December 18, 2018) ##
+
+*   Allow Rails 5.
+
+    *Rafael Mendonça França*
+
 ## 4.1.0 (October 12, 2014) ##
 
 *   Default to .coffee extension instead of .js.coffee

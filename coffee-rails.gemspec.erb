@@ -14,10 +14,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "coffee-rails"
 
   s.add_runtime_dependency 'coffee-script', '>= 2.2.0'
-  s.add_runtime_dependency 'railties',      '>= 4.0.0', '< 5.0'
+  s.add_runtime_dependency 'railties',      '>= 4.0.0', '< 5.1.x'
 
   s.files         = [<%= files.map(&:inspect).join ',' %>]
-  s.test_files    = [<%= test_files.map(&:inspect).join ',' %>]
   s.executables   = [<%= executables.map(&:inspect).join ',' %>]
   s.require_paths = ["lib"]
   s.license = "MIT"
