@@ -1,4 +1,4 @@
-## 4.1.1 (December 18, 2018) ##
+## 4.1.1 (December 18, 2015) ##
 
 *   Allow Rails 5.
 
