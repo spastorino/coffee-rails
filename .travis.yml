@@ -15,12 +15,20 @@ gemfile:
   - gemfiles/Gemfile-4-0-stable
   - gemfiles/Gemfile-4-1-stable
   - gemfiles/Gemfile-4-2-stable
+  - gemfiles/Gemfile-5-0-stable
 matrix:
   exclude:
     - gemfile: Gemfile
+    - gemfile: gemfiles/Gemfile-5-0-stable
   include:
     - gemfile: Gemfile
       rvm: 2.2.5
+    - gemfile: Gemfile
+      rvm: 2.3.1
+    - gemfile: gemfiles/Gemfile-5-0-stable
+      rvm: 2.2.5
+    - gemfile: gemfiles/Gemfile-5-0-stable
+      rvm: 2.3.1
 notifications:
   email: false
   campfire:
