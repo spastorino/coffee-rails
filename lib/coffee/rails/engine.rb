@@ -1,5 +1,5 @@
 require 'rails/engine'
-require 'rails/generators/named_base'
+require 'rails/generators'
 require 'coffee/rails/js_hook'
 
 module Coffee
