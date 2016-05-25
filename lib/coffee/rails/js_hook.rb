@@ -5,7 +5,7 @@ module Coffee
 
       included do
         no_tasks do
-          def js_template(source, destination)
+          redefine_method :js_template do |source, destination|
             template(source + '.coffee', destination + '.coffee')
           end
         end
