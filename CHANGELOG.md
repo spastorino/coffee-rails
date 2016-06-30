@@ -1,3 +1,8 @@
+## 4.2.0 (June 30, 2016) ##
+
+*   Override `js_tempalte` hook in the Rails generator to allow Rails to
+    be CoffeeScript agnostic.
+
 ## 4.1.1 (December 18, 2015) ##
 
 *   Allow Rails 5.
