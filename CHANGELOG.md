@@ -1,3 +1,7 @@
+## 4.2.1 (June 30, 2016) ##
+
+*   Fix error in the gem package.
+
 ## 4.2.0 (June 30, 2016) ##
 
 *   Override `js_tempalte` hook in the Rails generator to allow Rails to
