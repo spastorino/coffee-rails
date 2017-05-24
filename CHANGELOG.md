@@ -1,3 +1,7 @@
+## 4.2.2 (May 24, 2017) ##
+
+*   Support digest resolution for coffee templates.
+
 ## 4.2.1 (June 30, 2016) ##
 
 *   Fix error in the gem package.
