@@ -26,9 +26,13 @@ matrix:
   exclude:
     - gemfile: Gemfile
     - gemfile: gemfiles/Gemfile-4-0-stable
-      rvm: 2.4.1
+      rvm: 2.4
     - gemfile: gemfiles/Gemfile-4-1-stable
-      rvm: 2.4.1
+      rvm: 2.4
+    - gemfile: gemfiles/Gemfile-4-0-stable
+      rvm: 2.5
+    - gemfile: gemfiles/Gemfile-4-1-stable
+      rvm: 2.5
     - gemfile: gemfiles/Gemfile-4-0-stable
       rvm: ruby-head
     - gemfile: gemfiles/Gemfile-4-1-stable
@@ -40,21 +44,25 @@ matrix:
     - gemfile: gemfiles/Gemfile-5-0-stable
   include:
     - gemfile: Gemfile
-      rvm: 2.2.7
+      rvm: 2.2
     - gemfile: Gemfile
-      rvm: 2.3.4
+      rvm: 2.3
     - gemfile: Gemfile
-      rvm: 2.4.1
+      rvm: 2.4
+    - gemfile: Gemfile
+      rvm: 2.5
     - gemfile: Gemfile
       rvm: ruby-head
     - gemfile: Gemfile
       rvm: rbx-3
     - gemfile: gemfiles/Gemfile-5-0-stable
-      rvm: 2.2.7
+      rvm: 2.2
     - gemfile: gemfiles/Gemfile-5-0-stable
-      rvm: 2.3.4
+      rvm: 2.3
     - gemfile: gemfiles/Gemfile-5-0-stable
-      rvm: 2.4.1
+      rvm: 2.4
+    - gemfile: gemfiles/Gemfile-5-0-stable
+      rvm: 2.5
     - gemfile: gemfiles/Gemfile-5-0-stable
       rvm: ruby-head
     - gemfile: gemfiles/Gemfile-5-0-stable
