@@ -5,8 +5,12 @@ module Coffee
         @@erb_handler ||= ActionView::Template.registered_template_handler(:erb)
       end
 
-      def self.call(template)
-        compiled_source = erb_handler.call(template)
+      def self.call(template, source = nil)
+        compiled_source = if source
+          erb_handler.call(template, source)
+        else
+          erb_handler.call(template)
+        end
         "CoffeeScript.compile(begin;#{compiled_source};end)"
       end
     end
