@@ -51,6 +51,8 @@ matrix:
     - gemfile: Gemfile
       rvm: 2.5
     - gemfile: Gemfile
+      rvm: 2.6
+    - gemfile: Gemfile
       rvm: ruby-head
     - gemfile: Gemfile
       rvm: rbx-3
