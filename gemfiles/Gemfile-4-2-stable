@@ -1,8 +1,0 @@
-source 'https://rubygems.org'
-
-gemspec path: '..'
-
-gem 'rails', github: 'rails/rails', branch: '4-2-stable'
-gem "mime-types", "< 3"
-# To test on Ruby 1.9.3
-gem "rake", "< 12.3"
