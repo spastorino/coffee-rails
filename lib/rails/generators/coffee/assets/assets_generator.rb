@@ -6,7 +6,7 @@ module Coffee
       source_root File.expand_path("../templates", __FILE__)
 
       def copy_coffee
-        template "javascript.coffee", File.join('app/javascript', class_path, "#{file_name}.coffee")
+        template "javascript.coffee", File.join('app/assets/javascripts', class_path, "#{file_name}.coffee")
       end
     end
   end

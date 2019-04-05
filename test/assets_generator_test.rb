@@ -9,7 +9,7 @@ class AssetGeneratorTest < Rails::Generators::TestCase
 
   def test_assets
     run_generator %w(posts --javascript-engine=coffee)
-    assert_no_file "app/javascript/posts.js"
-    assert_file "app/javascript/posts.coffee"
+    assert_no_file "app/assets/javascripts/posts.js"
+    assert_file "app/assets/javascripts/posts.coffee"
   end
 end
