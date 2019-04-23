@@ -1,3 +1,8 @@
+## 5.0.0 (Apr 23, 2019) ##
+
+* Remove support to Rails < 5.2.
+* Support Rails 6.
+
 ## 4.2.2 (May 24, 2017) ##
 
 *   Support digest resolution for coffee templates.
