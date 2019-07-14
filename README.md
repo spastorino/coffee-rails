@@ -19,5 +19,5 @@ If you need to test against local gems, use Bundler's gem `:path` option in the 
 
 ## Code Status
 
-* [![Travis CI](https://api.travis-ci.org/rails/coffee-rails.png)](http://travis-ci.org/rails/coffee-rails)
-* [![Gem Version](https://badge.fury.io/rb/coffee-rails.png)](http://badge.fury.io/rb/coffee-rails)
+* [![Travis CI](https://api.travis-ci.org/rails/coffee-rails.svg)](http://travis-ci.org/rails/coffee-rails)
+* [![Gem Version](https://badge.fury.io/rb/coffee-rails.svg)](http://badge.fury.io/rb/coffee-rails)
