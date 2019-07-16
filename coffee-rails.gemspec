@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{CoffeeScript adapter for the Rails asset pipeline.}
   s.description = %q{CoffeeScript adapter for the Rails asset pipeline.}
 
-  s.rubyforge_project = "coffee-rails"
-
   s.add_runtime_dependency 'coffee-script', '>= 2.2.0'
   s.add_runtime_dependency 'railties',      '>= 5.2.0'
 
