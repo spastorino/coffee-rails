@@ -11,6 +11,13 @@ Gem::Specification.new do |s|
   s.summary     = %q{CoffeeScript adapter for the Rails asset pipeline.}
   s.description = %q{CoffeeScript adapter for the Rails asset pipeline.}
 
+  s.metadata = {
+    "bug_tracker_uri"   => "https://github.com/rails/coffee-rails/issues",
+    "changelog_uri"     => "https://github.com/rails/coffee-rails/blob/v#{s.version}/CHANGELOG.md",
+    "documentation_uri" => "https://www.rubydoc.info/gems/coffee-rails/#{s.version}",
+    "source_code_uri"   => "https://github.com/rails/coffee-rails/tree/v#{s.version}",
+  }
+
   s.add_runtime_dependency 'coffee-script', '>= 2.2.0'
   s.add_runtime_dependency 'railties',      '>= 5.2.0'
 
