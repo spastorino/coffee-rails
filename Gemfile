@@ -1,11 +1,6 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-# Specify your gem's dependencies in sass-rails.gemspec
+# Specify your gem's dependencies in coffee-rails.gemspec
 gemspec
 
-# gem "rails", :git => "git://github.com/rails/rails", :branch => "3-1-stable"
-gem "rails", :path => "/Users/santiago/WyeWorks/Projs/rails"
-
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-# gem 'ruby-debug'
-# gem 'ruby-debug19'
+gem 'rails', git: 'https://github.com/rails/rails'
